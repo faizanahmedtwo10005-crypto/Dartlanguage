@@ -1,0 +1,29 @@
+void main() {
+String destination = 'abc';
+double weightinkg = 100;
+//   if(destination == 'xyz'){
+//     print("shipping cost:${weightinkg*5}");
+//   }
+//   else if(destination == 'abc'){
+//     print("shipping cost:${weightinkg*7}");
+//   }
+//   else if(destination == 'pqr'){
+//     print("shipping cost:${weightinkg*10}");
+//   }
+//   else{
+//     print("INVALID LOCATION");
+//   }
+  switch (destination){
+    case 'xyz':
+      print("shipping cost:${weightinkg*5}");
+      break;
+    case 'abc':
+      print("shipping cost:${weightinkg*7}");
+      break;
+    case 'pqr':
+      print("shipping cost:${weightinkg*10}");
+      break;
+    default:
+      print("INVALID LOCATION");
+  }
+}
